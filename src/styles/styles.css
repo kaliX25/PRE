@@ -219,6 +219,7 @@ body {
   background: white;
   padding: 8rem;
   padding-right: 0;
+  padding-bottom: 0;
   position: relative;
   top: -5%;
 }
