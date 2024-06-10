@@ -11,7 +11,7 @@ export default function Products_csnri() {
         <Location name="CSNRI" />
         <h1 className="content-title">CSNRI Composites</h1>
         <section className="content-product-1">
-          <img src="csnri.png" alt="csnri" className="csnri-logo" />
+          <img src="./csnri.png" alt="csnri" className="csnri-logo" />
           <p className="content-products-text">
             CSNRI is the world’s leading manufacturer of highly innovative,
             engineered products for the repair and rehabilitation of critical
@@ -29,7 +29,7 @@ export default function Products_csnri() {
           <section className="content-product-2-sub1-wrapper">
             <section className="content-product-2-sub1">
               <img
-                src="csnri_sub-1.jpg"
+                src="./csnri_sub-1.jpg"
                 alt="Transmission Pipeline Products"
                 className="csnri-sub-pic"
               />
@@ -45,7 +45,7 @@ export default function Products_csnri() {
             </section>
             <section className="content-product-2-sub1">
               <img
-                src="csnri_sub-2.jpg"
+                src="./csnri_sub-2.jpg"
                 alt="Process Piping Products"
                 className="csnri-sub-pic"
               />

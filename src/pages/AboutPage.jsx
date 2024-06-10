@@ -12,7 +12,7 @@ export default function AboutPage() {
         <section className="content-main">
           <h1 className="about-main-title">About Us</h1>
           <section className="about-main-content-1">
-            <img src="about_1.jpg" className="about_1-pic" />
+            <img src="./about_1.jpg" className="about_1-pic" />
             <section className="about-main-content-1-content">
               <h1 className="about_1-title">Established in 2022</h1>
               <p className="about_1-detail">
@@ -38,10 +38,10 @@ export default function AboutPage() {
                 every project is approached with precision and dedication
               </p>
             </section>
-            <img src="about_2.jpg" className="about_2-pic" />
+            <img src="./about_2.jpg" className="about_2-pic" />
           </section>
           <section className="about-main-content-3">
-            <img src="about_3(2).jpg" className="about_3-pic" />
+            <img src="./about_3(2).jpg" className="about_3-pic" />
             <section className="about-main-content-3-content">
               <h1 className="about_3-title">Our Services</h1>
               <p className="about_3-detail">
@@ -56,9 +56,9 @@ export default function AboutPage() {
           <section className="about-main-content-4">
             <h1 className="about_4-title">International Standards</h1>
             <section className="about-main-content-4-pic-wrapper">
-              <img src="about_4.jpg" className="about_4-pic" />
-              <img src="about_5(2).jpg" className="about_5-pic" />
-              <img src="about_6.jpg" className="about_6-pic" />
+              <img src="./about_4.jpg" className="about_4-pic" />
+              <img src="./about_5(2).jpg" className="about_5-pic" />
+              <img src="./about_6.jpg" className="about_6-pic" />
             </section>
             <section className="about-main-content-4-content">
               <p className="about_4-detail">

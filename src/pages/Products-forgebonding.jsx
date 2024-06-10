@@ -12,7 +12,7 @@ export default function Products_forge_bonding() {
         <h1 className="content-title">Forge Bondings</h1>
         <section className="content-product-1">
           <img
-            src="forge_bonding.jpeg"
+            src="./forge_bonding.jpeg"
             alt="forgebonding"
             className="csnri-logo"
           />
@@ -27,12 +27,12 @@ export default function Products_forge_bonding() {
         </section>
         <section className="forge_bonding-pic-wrapper">
           <img
-            src="forge_bonding-product.jpg"
+            src="./forge_bonding-product.jpg"
             alt="forge bonding product 1"
             className="forge_bonding-pic"
           />
           <img
-            src="forge_bonding-product-2.jpg"
+            src="./forge_bonding-product-2.jpg"
             alt="forge bonding product 2"
             className="forge_bonding-pic"
           />

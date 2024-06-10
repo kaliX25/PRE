@@ -11,7 +11,7 @@ export default function Premiere_coating() {
         <Location name="Premiere Coatings" />
         <h1 className="content-title">Premiere Coatings</h1>
         <section className="content-product-1">
-          <img src="premierecoating.png" alt="csnri" className="csnri-logo" />
+          <img src="./premierecoating.png" alt="csnri" className="csnri-logo" />
           <p className="content-products-text">
             Premier Coatings Ltd specialise in the manufacture and supply of a
             wide range of cost effective, corrosion prevention and chemical
@@ -49,7 +49,7 @@ export default function Premiere_coating() {
               water and oxygen, and require no primer.
             </p>
           </section>
-          <img src="premierecoating-product.jpg" className="csnri-sub-pic" />
+          <img src="./premierecoating-product.jpg" className="csnri-sub-pic" />
         </section>
         <section className="product-seemore-wrapper">
           <a

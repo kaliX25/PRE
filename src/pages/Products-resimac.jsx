@@ -11,7 +11,7 @@ export default function Products_resimac() {
         <Location name="Resimac" />
         <h1 className="content-title">Resimac</h1>
         <section className="content-product-1">
-          <img src="resimac.png" alt="forgebonding" className="csnri-logo" />
+          <img src="./resimac.png" alt="forgebonding" className="csnri-logo" />
           <p className="content-products-text">
             Resimac is a UK based manufacturer of solvent free epoxy,
             polyurethane & silicone composites and industrial coatings. We

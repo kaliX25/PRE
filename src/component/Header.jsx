@@ -131,7 +131,7 @@ export default function Header({ home }) {
       <section className="header__image-wrapper">
         <Link to="/home" onClick={scrollToTop} className="logo-wrapper">
           <img
-            src="/logo (2).png"
+            src="./logo (2).png"
             alt="logo"
             className="logo"
             style={picStyle}
@@ -279,11 +279,6 @@ export default function Header({ home }) {
             )}
           </section>
         </li>
-
-        {/* <li>
-          <a className="anchor-el">Services</a>
-        </li> */}
-
         <li className="button-contact">
           <Link to="/contact" className="contact-button" onClick={scrollToTop}>
             Contact Us

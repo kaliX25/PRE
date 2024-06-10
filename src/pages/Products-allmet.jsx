@@ -11,7 +11,7 @@ export default function Products_allmet() {
         <Location name="Allmet Safety Tools" />
         <h1 className="content-title">Allmet Safety Tools</h1>
         <section className="content-product-1">
-          <img src="safetytools.jpg" alt="magnaseal" className="csnri-logo" />
+          <img src="./safetytools.jpg" alt="magnaseal" className="csnri-logo" />
           <p className="content-products-text">
             Allmet Safety Tools has been safely used worldwide for over two
             decades, offering substantial health, safety & environmental

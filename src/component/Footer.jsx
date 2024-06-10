@@ -29,7 +29,7 @@ export default function Footer() {
             href="https://wa.me/+8127600736"
             target="_blank"
           >
-            <img src="whatsapp.png" className="whatsapp" />
+            <img src="./whatsapp.png" className="whatsapp" />
             +62 812 760 0736
           </a>
         </section>
@@ -64,7 +64,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/pt-petro-riau-energi-5b16022b8/"
               target="_blank"
             >
-              <img src="linkedin.png" className="linkedin" />
+              <img src="./linkedin.png" className="linkedin" />
             </a>
           </section>
         </section>

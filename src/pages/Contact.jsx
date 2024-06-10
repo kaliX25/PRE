@@ -88,10 +88,10 @@ export default function Contact() {
             </button>
           </form>
           <section className="content-detail-sub line">
-            <img src="contact-pic.png" className="contact-pic" />
+            <img src="./contact-pic.png" className="contact-pic" />
             <h1>Get In Touch With Us!</h1>
             <section>
-              <img src="email.png" className="linkedin" />
+              <img src="./email.png" className="linkedin" />
               <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=info@petroriauenergi.com"
                 className="footer-message-anchor"
@@ -101,7 +101,7 @@ export default function Contact() {
               </a>
             </section>
             <a className="footer-contact-telephone" href="tel:+76136147">
-              <img src="telephone.png" className="telephone" />
+              <img src="./telephone.png" className="telephone" />
               0761 36147
             </a>
             <a
@@ -109,18 +109,18 @@ export default function Contact() {
               href="https://wa.me/+8127600736"
               target="_blank"
             >
-              <img src="whatsapp.png" className="whatsapp" />
+              <img src="./whatsapp.png" className="whatsapp" />
               +62 812 760 0736
             </a>
             <section className="footer-sosmed-content">
               <a href="">
-                <img src="instagram.png" className="instagram" />
+                <img src="./instagram.png" className="instagram" />
               </a>
               <a
                 href="https://www.linkedin.com/in/pt-petro-riau-energi-5b16022b8/"
                 target="_blank"
               >
-                <img src="linkedin.png" className="linkedin" />
+                <img src="./linkedin.png" className="linkedin" />
               </a>
             </section>
           </section>

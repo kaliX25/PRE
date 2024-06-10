@@ -73,7 +73,7 @@ export default function HomePage() {
       <main>
         <section className="home_picture-wrapper">
           <img
-            src={images[imageIndex]}
+            src={`./${images[imageIndex]}`}
             alt={images[imageIndex]}
             className={`home_picture`}
           />
@@ -116,7 +116,7 @@ export default function HomePage() {
           </section>
           <section className="home-about_picture-wrapper">
             <img
-              src="home-about.jpg"
+              src="./home-about.jpg"
               alt="home picture"
               className="about-home_picture"
             />
@@ -133,13 +133,17 @@ export default function HomePage() {
           <section className="home-product-content">
             <section className="home-product csnri">
               <Link to="/csnri" onClick={scrollToTop}>
-                <img src="csnri.png" alt="csnri" className="product-picture" />
+                <img
+                  src="./csnri.png"
+                  alt="csnri"
+                  className="product-picture"
+                />
               </Link>
             </section>
             <section className="home-product magnaseal">
               <Link to="/magnaseal" onClick={scrollToTop}>
                 <img
-                  src="magnaseal.jpg"
+                  src="./magnaseal.jpg"
                   alt="magnaseal"
                   className="product-picture"
                 />
@@ -148,7 +152,7 @@ export default function HomePage() {
             <section className="home-product forgetech">
               <Link to="/forgebonding" onClick={scrollToTop}>
                 <img
-                  src="forge_bonding.jpeg"
+                  src="./forge_bonding.jpeg"
                   alt="forgetech"
                   className="product-picture"
                 />
@@ -157,7 +161,7 @@ export default function HomePage() {
             <section className="home-product premiere">
               <Link to="/premierecoating" onClick={scrollToTop}>
                 <img
-                  src="premierecoating.png"
+                  src="./premierecoating.png"
                   alt="premiere"
                   className="product-picture"
                 />
@@ -166,7 +170,7 @@ export default function HomePage() {
             <section className="home-product resimac">
               <Link to="/resimac" onClick={scrollToTop}>
                 <img
-                  src="resimac.jpg"
+                  src="./resimac.jpg"
                   alt="resimac"
                   className="product-picture"
                 />
@@ -175,7 +179,7 @@ export default function HomePage() {
             <section className="home-product safetytools">
               <Link to="/allmet" onClick={scrollToTop}>
                 <img
-                  src="safetytools.jpg"
+                  src="./safetytools.jpg"
                   alt="safetytools"
                   className="product-picture"
                 />
@@ -186,10 +190,10 @@ export default function HomePage() {
         <section className="home-team-wrapper">
           <h1 className="home-team-wrapper-title">Meet Our Team</h1>
           <section className="home-team-content">
-            <img src="profile.png" alt="profile" className="profile" />
+            <img src="./profile.png" alt="profile" className="profile" />
             <section className="home-team-content-info">
               <section className="home-team-content-info-title">
-                <img src="quote.png" className="quote" />
+                <img src="./quote.png" className="quote" />
                 <h1 className="owner">Soemanto, S.E.</h1>
                 <p className="role">chairman</p>
               </section>

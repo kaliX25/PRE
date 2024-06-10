@@ -11,7 +11,7 @@ export default function Products_magnaseal() {
         <Location name="Magnaseal" />
         <h1 className="content-title">MAGNASEAL</h1>
         <section className="content-product-1">
-          <img src="magnaseal.jpg" alt="magnaseal" className="csnri-logo" />
+          <img src="./magnaseal.jpg" alt="magnaseal" className="csnri-logo" />
           <p className="content-products-text">
             MAGNASEAL is the safest, most effective, and efficient way to stop
             or prevent leaks of hazardous materials. Produced in Canada with the
@@ -21,7 +21,7 @@ export default function Products_magnaseal() {
           </p>
         </section>
         <section className="content-product-1 grey">
-          <img src="magnaseal-product.jpg" className="csnri-sub-pic" />
+          <img src="./magnaseal-product.jpg" className="csnri-sub-pic" />
           <section className="content-product-1-sub">
             <h2 className="content-products-1-title">MAGNASEAL Leak Patch</h2>
             <p className="content-products-text">
