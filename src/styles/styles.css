@@ -406,7 +406,7 @@ body {
   height: 90vh;
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  background: url('./home_foot.jpg');
+  background: url('../../home_foot.jpg');
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -846,7 +846,7 @@ li {
 }
 
 .resimac-content-wrapper {
-  background: url('./resimac_content-bg.jpg');
+  background: url('../../resimac_content-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   height: 60vh;
@@ -929,27 +929,27 @@ li {
   z-index: 1;
 }
 .cp {
-  background: url('./corrosion_preventions.jpg');
+  background: url('../../corrosion_preventions.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 .ppr {
-  background: url('./pressure_pipe_reinforcement.jpg');
+  background: url('../../pressure_pipe_reinforcement.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 .vtr {
-  background: url('./vessel_and_tank.jpeg');
+  background: url('../../vessel_and_tank.jpeg');
   background-size: cover;
   background-attachment: fixed;
 }
 .cwm {
-  background: url('./cold_work_method.png');
+  background: url('../../cold_work_method.png');
   background-size: cover;
   background-attachment: fixed;
 }
 .dts {
-  background: url('./downtime.jpg');
+  background: url('../../downtime.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
