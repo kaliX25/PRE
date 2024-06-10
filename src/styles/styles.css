@@ -257,7 +257,7 @@ body {
 }
 .home-product-wrapper {
   margin-top: 1%;
-  background: url('./bg-home.jpg');
+  background: url('../../public/bg-home.jpg');
   background-size: cover;
   background-attachment: fixed;
   padding: 4rem;
