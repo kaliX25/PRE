@@ -11,44 +11,35 @@ export default function Header({ home }) {
   const [dd_activate, setdd] = React.useState(0);
   const [dd_activate2, setdd2] = React.useState(0);
   const [isClicked, setIsClicked] = React.useState(false);
-  // const [scrollOrNot, setScrollOrNot] = React.useState(true);
   const [hamburgerPosition, setHamburgerPosition] = React.useState({});
   const [isNarrowScreen, setNarrowScreen] = React.useState(
-    window.innerWidth < 600
+    window.innerWidth < 800
   );
-  // const handleScrollOrNot = (e) => {
-  //   if (scrollOrNot) {
-  //     e.preventDefault();
-  //   }
-  // };
   const handleResize = () => {
     setNarrowScreen(window.innerWidth < 800);
   };
   const handleHamburger = () => {
     setIsClicked(!isClicked);
-    if (!isClicked) {
-      document.body.classList.add('no-scroll');
-    } else {
-      document.body.classList.remove('no-scroll');
-    }
-    // setScrollOrNot(!scrollOrNot);
+    // if (!isClicked) {
+    //   document.body.classList.add('no-scroll');
+    // } else {
+    //   document.body.classList.remove('no-scroll');
+    // }
   };
   React.useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
-      if (isClicked) {
-        console.log(1);
-        window.scrollTo({
-          top: window.scrollY,
-        });
-        document.body.style.overflowY = 'hidden';
-      }
+      // if (isClicked) {
+      //   console.log(1);
+      //   window.scrollTo({
+      //     top: window.scrollY,
+      //   });
+      //   document.body.style.overflowY = 'hidden';
+      // }
     };
-    // window.addEventListener('scroll', handleScrollOrNot);
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
     return () => {
-      // window.removeEventListener('scroll', handleScrollOrNot);
       window.removeEventListener('resize', handleResize);
       window.removeEventListener('scroll', handleScroll);
     };
@@ -59,10 +50,8 @@ export default function Header({ home }) {
         setStyle((prevStyle) => ({
           ...prevStyle,
           background: '#30363d',
-          // 'box-shadow': 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
           color: 'black',
           height: '10rem',
-          // Add other attributes here if needed
         }));
         setPicStyle((prevStyle) => ({
           ...prevStyle,
@@ -77,7 +66,6 @@ export default function Header({ home }) {
           ...prevStyle,
           background: 'transparent',
           height: '13rem',
-          // Add other attributes here if needed
         }));
         setPicStyle((prevStyle) => ({
           ...prevStyle,
@@ -92,10 +80,8 @@ export default function Header({ home }) {
       setStyle((prevStyle) => ({
         ...prevStyle,
         background: '#30363d',
-        // 'box-shadow': 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
         color: 'black',
         height: '10rem',
-        // Add other attributes here if needed
       }));
       setPicStyle((prevStyle) => ({
         ...prevStyle,
@@ -149,8 +135,6 @@ export default function Header({ home }) {
         <section className="lines"></section>
         <section className="lines"></section>
       </section>
-      {/* <section className="hamburger-container" id="hamburger-1"></section> */}
-      {/* <RxHamburgerMenu className="hamburger" /> */}
       <ul
         className={`header__anchor-list ${isNarrowScreen ? 'hide' : 'show'} ${
           isClicked ? 'hamburger-moment' : ''
