@@ -3,8 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
-// import Header from '../component/Header';
-// import Footer from '../component/Footer';
 import Products_csnri from './Products-csnri';
 import Products_premiere_coating from './Products-premierecoating';
 import Products_magnaseal from './Products-magnaseal';
