@@ -34,7 +34,7 @@ export default function HomePage() {
     if (scrollY > 2000) {
       const interval = setInterval(() => {
         setYears((prevNumber) => {
-          if (prevNumber < 13) {
+          if (prevNumber < 14) {
             return prevNumber + 1;
           } else {
             clearInterval(interval);
