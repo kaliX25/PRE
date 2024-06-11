@@ -20,22 +20,10 @@ export default function Header({ home }) {
   };
   const handleHamburger = () => {
     setIsClicked(!isClicked);
-    // if (!isClicked) {
-    //   document.body.classList.add('no-scroll');
-    // } else {
-    //   document.body.classList.remove('no-scroll');
-    // }
   };
   React.useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
-      // if (isClicked) {
-      //   console.log(1);
-      //   window.scrollTo({
-      //     top: window.scrollY,
-      //   });
-      //   document.body.style.overflowY = 'hidden';
-      // }
     };
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
