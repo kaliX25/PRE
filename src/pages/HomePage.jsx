@@ -21,10 +21,8 @@ export default function HomePage() {
     };
   }, []);
   React.useEffect(() => {
-    // setFadeOut(false);
     const interval = setInterval(() => {
       setTimeout(() => {
-        // setFadeOut(true);
         setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
       }, 500);
     }, 5000);
