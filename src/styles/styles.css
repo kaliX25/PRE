@@ -13,7 +13,6 @@
   --green-1: #1b5d75;
   --green-2: #d7e8ee;
 }
-/* Reset CSS */
 html,
 body {
   width: 100%;
@@ -295,6 +294,9 @@ body {
   height: 95%;
   width: 100%;
 }
+.product-picture.pilemedic {
+  height: 27vh;
+}
 .home-team-wrapper {
   height: 100vh;
   padding: 7rem;
@@ -322,8 +324,17 @@ body {
 .profile {
   height: 60vh;
   width: 25vw;
+  /* height: 45vh; */
+  /* width: 20vw; */
+  /* border-radius: 2rem; */
 }
-
+.preloader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
 .owner {
   font-size: 4rem;
 }
@@ -1074,8 +1085,23 @@ body {
 .dropdown-subtitle-space {
   margin-top: 2rem;
 }
+.carmel-product {
+  display: flex;
+  width: 100%;
+  gap: 3vw;
+}
+.carmel-product img {
+  flex: 1;
+  width: 30vw;
+}
+.dropdown {
+  margin-top: 3.2vh;
+}
 /* media queries for mobile */
 @media only screen and (max-width: 800px) {
+  .product-picture.pilemedic {
+    height: 80%;
+  }
   .home_picture-wrapper {
     position: relative;
   }
@@ -1216,7 +1242,8 @@ body {
     right: 0;
   }
   .dropdown {
-    top: 0;
+    margin-top: 0;
+    top: 3vh;
     padding-top: 1rem;
     position: relative;
     width: 100%;

@@ -43,13 +43,6 @@ export default function Footer() {
             info@petroriauenergi.com
           </a>
           <br />
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=soemanto@petroriauenergi.com"
-            className="footer-message-anchor"
-            target="_blank"
-          >
-            soemanto@petroriauenergi.com
-          </a>
         </section>
         <section className="footer-sosmed">
           <h1 className="footer-content-subtitle">Follow:</h1>

@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: '/PRE/',
+  base: 'https://www.petroriauenergi.com/',
   server: {
     host: '0.0.0.0', // Allows access from the network
     port: 5173, // Ensure this is the correct port

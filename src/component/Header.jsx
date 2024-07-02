@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { VscTriangleDown, VscTriangleUp } from 'react-icons/vsc';
-import { RxHamburgerMenu } from 'react-icons/rx';
 import '../styles/styles.css';
 export default function Header({ home }) {
   const [scrollY, setScrollY] = React.useState(0);
@@ -20,22 +19,10 @@ export default function Header({ home }) {
   };
   const handleHamburger = () => {
     setIsClicked(!isClicked);
-    // if (!isClicked) {
-    //   document.body.classList.add('no-scroll');
-    // } else {
-    //   document.body.classList.remove('no-scroll');
-    // }
   };
   React.useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
-      // if (isClicked) {
-      //   console.log(1);
-      //   window.scrollTo({
-      //     top: window.scrollY,
-      //   });
-      //   document.body.style.overflowY = 'hidden';
-      // }
     };
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
@@ -152,7 +139,7 @@ export default function Header({ home }) {
         </li>
         <li>
           <section className={`anchor-el`} onClick={dropdown}>
-            Product
+            Products
             {dd_activate ? (
               <>
                 <VscTriangleUp className="triangle-icon up" />
@@ -203,6 +190,20 @@ export default function Header({ home }) {
                   >
                     Resimac
                   </Link>
+                  <Link
+                    to="/pilemedic"
+                    className="dropdown-el"
+                    onClick={scrollToTop}
+                  >
+                    PileMedic+
+                  </Link>
+                  <Link
+                    to="/carmel"
+                    className="dropdown-el"
+                    onClick={scrollToTop}
+                  >
+                    Carmel Corrosion Systems
+                  </Link>
                 </section>
               </>
             ) : (
@@ -212,7 +213,7 @@ export default function Header({ home }) {
         </li>
         <li>
           <section className={`anchor-el`} onClick={dropdown2}>
-            Service
+            Services
             {dd_activate2 ? (
               <>
                 <VscTriangleUp className="triangle-icon up" />

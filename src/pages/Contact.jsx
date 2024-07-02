@@ -26,17 +26,6 @@ export default function Contact() {
       message: e.target.value,
     });
   };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const { name, email, message } = formData;
-    const mailtoLink = `"https://mail.google.com/mail/?view=cm&fs=1&to=info@petroriauenergi.com?subject=Message from ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
-    window.location.href = mailtoLink;
-    setFormData({
-      name: '',
-      email: '',
-      message: '',
-    });
-  };
   return (
     <>
       <Header />

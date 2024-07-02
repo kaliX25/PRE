@@ -3,14 +3,14 @@ import { Routes, Route } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
-// import Header from '../component/Header';
-// import Footer from '../component/Footer';
 import Products_csnri from './Products-csnri';
 import Products_premiere_coating from './Products-premierecoating';
 import Products_magnaseal from './Products-magnaseal';
 import Products_forge_bonding from './Products-forgebonding';
 import Products_resimac from './Products-resimac';
 import Products_allmet from './Products-allmet';
+import Products_pilemedic from './Products-pilemedic';
+import Products_carmel from './Products-carmel';
 import Corrosion_preventions from './Services-corrosion_preventions';
 import Pressure_pipe from './Services-pressure_pipe_reinforcement';
 import Cold_work_method from './Services-cold_work_method';
@@ -35,6 +35,8 @@ export default function App() {
       <Route path={'/allmet'} element={<Products_allmet />} />
       <Route path={'/forgebonding'} element={<Products_forge_bonding />} />
       <Route path={'/resimac'} element={<Products_resimac />} />
+      <Route path={'/pilemedic'} element={<Products_pilemedic />} />
+      <Route path={'/carmel'} element={<Products_carmel />} />
       <Route
         path={'/corrosion_prevention'}
         element={<Corrosion_preventions />}

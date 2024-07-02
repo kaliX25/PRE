@@ -1,6 +1,5 @@
 import Proptypes from 'prop-types';
 import React, { useState, useEffect } from 'react';
-// import './Typewriter.css'; // Import CSS file for styling
 import '../styles/styles.css';
 const Typewriter = ({ text }) => {
   const [displayText, setDisplayText] = useState('');
@@ -12,11 +11,9 @@ const Typewriter = ({ text }) => {
         setDisplayText((prevText) => prevText + text[currentIndex]);
         setCurrentIndex((prevIndex) => prevIndex + 1);
       } else {
-        clearInterval(interval); // Clear interval when typing is complete
+        clearInterval(interval); 
       }
-    }, 100); // Adjust the typing speed as needed
-
-    // Clear interval when component unmounts
+    }, 100);
     return () => clearInterval(interval);
   }, [currentIndex, text]);
 
